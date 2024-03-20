@@ -1,17 +1,75 @@
 body {
-background-color: #F0D9E7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-
-h1{
-  color: #66BFBF;
+h2{
+    color: rgb(36, 73, 195);
 }
-h3{
-color: #66BFBF;
+ul li{
+    list-style-type: disc;
+  }  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
-hr {
-border-style: none ;
-border-top-style: dotted;
-border-color: grey ;
-border-width: 5px;
-width: 5%;
+.content {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section h2 {
+    margin: 0;
+    font-size: 20px;
+}
+.section p {
+    margin: 0;
+}
+.section ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: none;
+}
+.section ul li {
+    margin-bottom: 5px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.name {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.contact-info {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
 }
